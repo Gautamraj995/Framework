@@ -12,7 +12,6 @@ Page Object Model Design Pattern to Maintain WebElements.
 
 Maven is used as Build Automation Tool that can be used to Execute Project from Command Prompt also to Integrate the Project with CI Tools - Jenkins Or Bamboo.
 Check out below Repository for Executing Project from Command Prompt and Implemented Profile Concept when in working with Multiple testng.xml Files.
-https://github.com/PavanReddy77/MavenSurefirePlugin
 
 TestNG is used as Test Driven Development Framework which comes with some Amazing Features that helps to Design a Robust Framework.
 
