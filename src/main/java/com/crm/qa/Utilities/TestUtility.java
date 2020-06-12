@@ -450,15 +450,23 @@ public class TestUtility extends TestBase
 
 	//37.
 	//Extent Report - 2.
-	public static String getScreenshot(WebDriver driver, String screenshotName) throws IOException 
+	public static String getScreenshot(WebDriver driver) throws IOException 
 	{
 		String dateName = new SimpleDateFormat("_ddMMyyyy_HHmmss").format(new Date());
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 
-		String destination = System.getProperty("user.dir") + "/FailedTestsScreenshots/" + screenshotName + dateName + ".png";
+		String destination = System.getProperty("user.dir") + "/FailedTestsScreenshots/" + dateName + ".png";
 		File finalDestination = new File(destination);
-		FileUtils.copyFile(source, finalDestination);
+		try 
+		{
+			FileUtils.copyFile(source, finalDestination);
+		} catch (IOException e) 
+		{
+			System.out.println("Capture Failed "+e.getMessage());
+		}
+		
+		
 		return destination;
 	}
 

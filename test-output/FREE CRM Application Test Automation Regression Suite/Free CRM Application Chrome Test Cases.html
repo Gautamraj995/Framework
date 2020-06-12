@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Free CRM Application Chrome Test Cases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/2</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 22 16:44:34 IST 2020</td>
+<td>Started on:</td><td>Fri Jun 12 14:29:44 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>287 seconds (287274 ms)</td>
+<tr><td>Total time:</td><td>27 seconds (27212 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,47 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.qa.TestCases.LoginPageTest.crmLogoImageTest()'><b>crmLogoImageTest</b><br>Test class: com.crm.qa.TestCases.LoginPageTest</td>
+<td><div><pre>java.lang.IllegalArgumentException: wrong number of arguments
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace117885704", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace117885704'><pre>java.lang.IllegalArgumentException: wrong number of arguments
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.crm.qa.TestCases.LoginPageTest@3e2e18f2</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,70 +116,147 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.crm.qa.TestCases.LoginPageTest.crmLogoImageTest()'><b>crmLogoImageTest</b><br>Test class: com.crm.qa.TestCases.LoginPageTest<br>Parameters: public void com.crm.qa.TestCases.LoginPageTest.crmLogoImageTest(java.lang.reflect.Method)</td>
-<td></td>
-<td>0</td>
-<td>com.crm.qa.TestCases.LoginPageTest@210366b4</td></tr>
-<tr>
 <td title='com.crm.qa.TestCases.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.crm.qa.TestCases.LoginPageTest<br>Parameters: public void com.crm.qa.TestCases.LoginPageTest.loginPageTitleTest(java.lang.reflect.Method)</td>
 <td></td>
 <td>0</td>
-<td>com.crm.qa.TestCases.LoginPageTest@210366b4</td></tr>
+<td>com.crm.qa.TestCases.LoginPageTest@3e2e18f2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='com.crm.qa.TestCases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.crm.qa.TestCases.LoginPageTest<br>Parameters: public void com.crm.qa.TestCases.LoginPageTest.loginTest(java.lang.reflect.Method)</td>
-<td></td>
-<td>12</td>
-<td>com.crm.qa.TestCases.LoginPageTest@210366b4</td></tr>
-<tr>
-<td title='com.crm.qa.TestCases.ContactsPageTest.selectMultipleContactsTest()'><b>selectMultipleContactsTest</b><br>Test class: com.crm.qa.TestCases.ContactsPageTest<br>Parameters: public void com.crm.qa.TestCases.ContactsPageTest.selectMultipleContactsTest(java.lang.reflect.Method)</td>
-<td></td>
-<td>1</td>
-<td>com.crm.qa.TestCases.ContactsPageTest@2b2948e2</td></tr>
-<tr>
-<td title='com.crm.qa.TestCases.ContactsPageTest.selectSingleContactsTest()'><b>selectSingleContactsTest</b><br>Test class: com.crm.qa.TestCases.ContactsPageTest<br>Parameters: public void com.crm.qa.TestCases.ContactsPageTest.selectSingleContactsTest(java.lang.reflect.Method)</td>
-<td></td>
-<td>1</td>
-<td>com.crm.qa.TestCases.ContactsPageTest@2b2948e2</td></tr>
-<tr>
-<td title='com.crm.qa.TestCases.ContactsPageTest.validateCreateNewContactTest()'><b>validateCreateNewContactTest</b><br>Test class: com.crm.qa.TestCases.ContactsPageTest<br>Parameters: public void com.crm.qa.TestCases.ContactsPageTest.validateCreateNewContactTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String), Mr., Tom, Peter, Google</td>
-<td></td>
-<td>4</td>
-<td>com.crm.qa.TestCases.ContactsPageTest@2b2948e2</td></tr>
-<tr>
-<td title='com.crm.qa.TestCases.ContactsPageTest.validateCreateNewContactTest()'><b>validateCreateNewContactTest</b><br>Test class: com.crm.qa.TestCases.ContactsPageTest<br>Parameters: public void com.crm.qa.TestCases.ContactsPageTest.validateCreateNewContactTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String), Dr., David, Cris, Amazon</td>
-<td></td>
-<td>4</td>
-<td>com.crm.qa.TestCases.ContactsPageTest@2b2948e2</td></tr>
-<tr>
-<td title='com.crm.qa.TestCases.ContactsPageTest.validateCreateNewContactTest()'><b>validateCreateNewContactTest</b><br>Test class: com.crm.qa.TestCases.ContactsPageTest<br>Parameters: public void com.crm.qa.TestCases.ContactsPageTest.validateCreateNewContactTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String), Mrs., Muktha, Sharma, Ebay</td>
-<td></td>
-<td>5</td>
-<td>com.crm.qa.TestCases.ContactsPageTest@2b2948e2</td></tr>
-<tr>
-<td title='com.crm.qa.TestCases.HomePageTest.verifyContactsLinkTest()'><b>verifyContactsLinkTest</b><br>Test class: com.crm.qa.TestCases.HomePageTest<br>Parameters: public void com.crm.qa.TestCases.HomePageTest.verifyContactsLinkTest(java.lang.reflect.Method)</td>
-<td></td>
-<td>1</td>
-<td>com.crm.qa.TestCases.HomePageTest@eec5a4a</td></tr>
-<tr>
-<td title='com.crm.qa.TestCases.ContactsPageTest.verifyContactsPageLabelTest()'><b>verifyContactsPageLabelTest</b><br>Test class: com.crm.qa.TestCases.ContactsPageTest<br>Parameters: public void com.crm.qa.TestCases.ContactsPageTest.verifyContactsPageLabelTest(java.lang.reflect.Method)</td>
-<td></td>
-<td>1</td>
-<td>com.crm.qa.TestCases.ContactsPageTest@2b2948e2</td></tr>
-<tr>
-<td title='com.crm.qa.TestCases.HomePageTest.verifyDealsPageLinkTest()'><b>verifyDealsPageLinkTest</b><br>Test class: com.crm.qa.TestCases.HomePageTest<br>Parameters: public void com.crm.qa.TestCases.HomePageTest.verifyDealsPageLinkTest(java.lang.reflect.Method)</td>
-<td></td>
-<td>1</td>
-<td>com.crm.qa.TestCases.HomePageTest@eec5a4a</td></tr>
-<tr>
-<td title='com.crm.qa.TestCases.HomePageTest.verifyHomePageTitleTest()'><b>verifyHomePageTitleTest</b><br>Test class: com.crm.qa.TestCases.HomePageTest<br>Parameters: public void com.crm.qa.TestCases.HomePageTest.verifyHomePageTitleTest(java.lang.reflect.Method)</td>
-<td></td>
+<td title='com.crm.qa.TestCases.LoginPageTest.crmLogoImageTest()'><b>crmLogoImageTest</b><br>Test class: com.crm.qa.TestCases.LoginPageTest<br>Parameters: public void com.crm.qa.TestCases.LoginPageTest.crmLogoImageTest(java.lang.reflect.Method)</td>
+<td><div><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //img[contains(@class,&apos;img-responsive&apos;)].../..test because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//img[contains(@class,&apos;img-responsive&apos;)].../..test&apos; is not a valid XPath expression.
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Gautams-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1417:5c7f:5437:c9cb%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/kw/bcf1jjp13cs...}, goog:chromeOptions: {debuggerAddress: localhost:50169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c70b1c254a4d972d43d887b5a16952ac
+*** Element info: {Using=xpath, value=//img[contains(@class,&apos;img-responsive&apos;)].../..test}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at com.crm.qa.Pages.LoginPage.validateCRMImage(LoginPage.java:39)
+	at com.crm.qa.TestCases.LoginPageTest.crmLogoImageTest(LoginPageTest.java:51)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1105282397", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1105282397'><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //img[contains(@class,&apos;img-responsive&apos;)].../..test because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//img[contains(@class,&apos;img-responsive&apos;)].../..test&apos; is not a valid XPath expression.
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Gautams-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1417:5c7f:5437:c9cb%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/kw/bcf1jjp13cs...}, goog:chromeOptions: {debuggerAddress: localhost:50169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c70b1c254a4d972d43d887b5a16952ac
+*** Element info: {Using=xpath, value=//img[contains(@class,&apos;img-responsive&apos;)].../..test}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at com.crm.qa.Pages.LoginPage.validateCRMImage(LoginPage.java:39)
+	at com.crm.qa.TestCases.LoginPageTest.crmLogoImageTest(LoginPageTest.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.crm.qa.TestCases.HomePageTest@eec5a4a</td></tr>
+<td>com.crm.qa.TestCases.LoginPageTest@3e2e18f2</td></tr>
 <tr>
-<td title='com.crm.qa.TestCases.HomePageTest.verifyUserNameTest()'><b>verifyUserNameTest</b><br>Test class: com.crm.qa.TestCases.HomePageTest<br>Parameters: public void com.crm.qa.TestCases.HomePageTest.verifyUserNameTest(java.lang.reflect.Method)</td>
-<td></td>
+<td title='com.crm.qa.TestCases.LoginPageTest.crmLogoImageTest()'><b>crmLogoImageTest</b><br>Test class: com.crm.qa.TestCases.LoginPageTest</td>
+<td><div><pre>java.lang.IllegalArgumentException: wrong number of arguments
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace128028301", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace128028301'><pre>java.lang.IllegalArgumentException: wrong number of arguments
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.crm.qa.TestCases.HomePageTest@eec5a4a</td></tr>
+<td>com.crm.qa.TestCases.LoginPageTest@3e2e18f2</td></tr>
 </table><p>
 </body>
 </html>

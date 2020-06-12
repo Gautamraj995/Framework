@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [FREE CRM Application Test Automation Regression Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.crm.qa.RetryLogic.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Free CRM Application Chrome Test Cases(failed)">
+    <parameter name="Browser" value="chrome"/>
     <classes>
-      <class name="com.crm.qa.TestCases.ContactsPageTest">
+      <class name="com.crm.qa.TestCases.LoginPageTest">
         <methods>
-          <include name="validateCreateNewContactTest"/>
+          <include name="crmLogoImageTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
           <include name="setExtent"/>
         </methods>
-      </class> <!-- com.crm.qa.TestCases.ContactsPageTest -->
+      </class> <!-- com.crm.qa.TestCases.LoginPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Free CRM Application Chrome Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Regression Suite] -->

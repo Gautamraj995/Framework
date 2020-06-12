@@ -1,0 +1,40 @@
+2020-06-11 23:24:03,286  INFO [main] WebEventListener:32 - Application Launched Successfully
+2020-06-11 23:24:03,356  INFO [main] LoginPage:43 - Login Page Title Verified
+2020-06-11 23:24:03,519  INFO [main] LoginPage:138 - Browser Terminated
+2020-06-11 23:24:03,520  INFO [main] LoginPage:139 - -----------------------------------------------
+2020-06-11 23:24:10,383  INFO [main] WebEventListener:32 - Application Launched Successfully
+2020-06-11 23:24:10,517  INFO [main] LoginPage:138 - Browser Terminated
+2020-06-11 23:24:10,518  INFO [main] LoginPage:139 - -----------------------------------------------
+2020-06-11 23:24:17,551  INFO [main] WebEventListener:32 - Application Launched Successfully
+2020-06-11 23:24:18,047  INFO [main] LoginPage:138 - Browser Terminated
+2020-06-11 23:24:18,048  INFO [main] LoginPage:139 - -----------------------------------------------
+2020-06-11 23:24:27,054  INFO [main] WebEventListener:32 - Application Launched Successfully
+2020-06-11 23:24:27,144  INFO [main] LoginPage:53 - CRM Logo Verified
+2020-06-11 23:24:27,323  INFO [main] LoginPage:138 - Browser Terminated
+2020-06-11 23:24:27,324  INFO [main] LoginPage:139 - -----------------------------------------------
+2020-06-11 23:24:33,338  INFO [main] WebEventListener:32 - Application Launched Successfully
+2020-06-11 23:24:33,467  INFO [main] LoginPage:138 - Browser Terminated
+2020-06-11 23:24:33,468  INFO [main] LoginPage:139 - -----------------------------------------------
+2020-06-11 23:24:39,331  INFO [main] WebEventListener:32 - Application Launched Successfully
+2020-06-11 23:24:39,810  INFO [main] LoginPage:138 - Browser Terminated
+2020-06-11 23:24:39,810  INFO [main] LoginPage:139 - -----------------------------------------------
+2020-06-11 23:24:47,111  INFO [main] WebEventListener:32 - Application Launched Successfully
+2020-06-11 23:24:53,914  INFO [main] HomePage:62 - Successfully Logged into CRM Application
+2020-06-11 23:24:54,077  INFO [main] HomePage:138 - Browser Terminated
+2020-06-11 23:24:54,078  INFO [main] HomePage:139 - -----------------------------------------------
+2020-06-11 23:25:07,100  INFO [main] WebEventListener:32 - Application Launched Successfully
+2020-06-11 23:25:07,240  INFO [main] LoginPage:138 - Browser Terminated
+2020-06-11 23:25:07,241  INFO [main] LoginPage:139 - -----------------------------------------------
+2020-06-11 23:25:13,461  INFO [main] WebEventListener:32 - Application Launched Successfully
+2020-06-11 23:25:14,015  INFO [main] LoginPage:138 - Browser Terminated
+2020-06-11 23:25:14,016  INFO [main] LoginPage:139 - -----------------------------------------------
+2020-06-11 23:25:14,050 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-06-11 23:25:14,052 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-06-11 23:25:14,055 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-11 23:25:14,058 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-11 23:25:14,059 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/gautamraj/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-11 23:25:14,353 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-06-11 23:25:14,355 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-06-11 23:25:14,356 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-11 23:25:14,357 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-11 23:25:14,358 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/gautamraj/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

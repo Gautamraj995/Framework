@@ -16,14 +16,13 @@ public class LoginPageTest extends TestBase
 {	
 	LoginPage loginPage;
 	HomePage homePage;
-	
 	public LoginPageTest()
 	{
 		super();
 	}
 	
 	@Parameters("Browser")
-	@BeforeMethod(alwaysRun=true)
+	@BeforeMethod(alwaysRun=false)
 	public void setUp(String Browser)
 	{
 		initialization(Browser);
@@ -35,26 +34,32 @@ public class LoginPageTest extends TestBase
 	@Test(priority=1, enabled=true)
 	public void loginPageTitleTest(Method method)
 	{
-		extentTest = extent.startTest(method.getName());
+		extentTest = extent.createTest(method.getName());
 		String title = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title, Constants.LOGIN_PAGE_TITLE, "Login Page Title is not Matched");
 		Log.info("Login Page Title Verified");
+		extentTest.pass("Working as expected");
+		extentTest.pass("Second Test case passed");
+		
 	}
 	
 	@Test(priority=2, enabled=true)
 	public void crmLogoImageTest(Method method)
 	{
-		extentTest = extent.startTest(method.getName());
+		
+		extentTest = extent.createTest(method.getName());
 		boolean flag = loginPage.validateCRMImage();
 		Assert.assertTrue(flag);
 		Log.info("CRM Logo Verified");
+		extentTest.fail("Not Working as expected");
 	}
 	
-	@Test(priority=3, enabled=true, invocationCount=1) 
+	@Test(priority=3, enabled=false, invocationCount=1) 
 	public void loginTest(Method method)
 	{
-		extentTest = extent.startTest(method.getName());
+		extentTest = extent.createTest(method.getName());
 		homePage = loginPage.login(property.getProperty("Username"),property.getProperty("Password"));
 		Log.info("Successfully Logged into CRM Application");
+		extentTest.skip("Skipped");
 	}
 }

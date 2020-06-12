@@ -47,7 +47,7 @@ public class ContactsPageTest extends TestBase
 	@Test(priority=1, enabled=true)
 	public void verifyContactsPageLabelTest(Method method)
 	{
-		extentTest = extent.startTest(method.getName());
+		extentTest = extent.createTest(method.getName());
 		testUtil.switchToFrame("mainpanel");
 		contactsPage = homePage.clickOnContactsLink();
 		Assert.assertTrue(contactsPage.verifyContactsLabel(), "Contacts Label is Missing in the Page");
@@ -57,7 +57,7 @@ public class ContactsPageTest extends TestBase
 	@Test(priority=2, enabled=true)
 	public void selectSingleContactsTest(Method method)
 	{
-		extentTest = extent.startTest(method.getName());
+		extentTest = extent.createTest(method.getName());
 		testUtil.switchToFrame("mainpanel");
 		contactsPage = homePage.clickOnContactsLink();
 		contactsPage.selectContactByName("Ram Kumar");
@@ -67,7 +67,6 @@ public class ContactsPageTest extends TestBase
 	@Test(priority=3, enabled=true)
 	public void selectMultipleContactsTest(Method method)
 	{
-		extentTest = extent.startTest(method.getName());
 		testUtil.switchToFrame("mainpanel");
 		contactsPage = homePage.clickOnContactsLink();
 		contactsPage.selectContactByName("Ram Kumar");
@@ -85,7 +84,7 @@ public class ContactsPageTest extends TestBase
 	@Test(priority=4, enabled=true, dataProvider="getCRMContactsTestData")
 	public void validateCreateNewContactTest(Method method, String Title, String FirstName, String LastName, String Company)
 	{
-		extentTest = extent.startTest(method.getName());
+		extentTest = extent.createTest(method.getName());
 		testUtil.switchToFrame("mainpanel");
 		homePage.clickOnNewContactLink();
 		contactsPage.createNewContact(Title, FirstName, LastName, Company);

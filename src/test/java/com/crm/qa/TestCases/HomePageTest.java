@@ -45,7 +45,7 @@ public class HomePageTest extends TestBase
 	@Test(priority=1, enabled=true)
 	public void verifyHomePageTitleTest(Method method)
 	{
-		extentTest = extent.startTest(method.getName());
+		extentTest = extent.createTest(method.getName());
 		String homePageTitle = homePage.verifyHomePageTitle();
 		Assert.assertEquals(homePageTitle, Constants.HOME_PAGE_TITLE, "Home Page Title is not Matched");
 		Log.info("Home Page Title Verified");
@@ -54,7 +54,7 @@ public class HomePageTest extends TestBase
 	@Test(priority=2, enabled=true)
 	public void verifyUserNameTest(Method method)
 	{
-		extentTest = extent.startTest(method.getName());
+		extentTest = extent.createTest(method.getName());
 		testUtil.switchToFrame("mainpanel");
 		Assert.assertTrue(homePage.verifyCorrectUserName());
 		Log.info("UserName Verified");
@@ -63,7 +63,7 @@ public class HomePageTest extends TestBase
 	@Test(priority=3, enabled=true)
 	public void verifyContactsLinkTest(Method method)
 	{
-		extentTest = extent.startTest(method.getName());
+		extentTest = extent.createTest(method.getName());
 		testUtil.switchToFrame("mainpanel");
 		contactsPage = homePage.clickOnContactsLink();
 		Log.info("Switched into Frame and Clicked on Contacts Link");
@@ -72,7 +72,7 @@ public class HomePageTest extends TestBase
 	@Test(priority=4, enabled=true)
 	public void verifyDealsPageLinkTest(Method method)
 	{
-		extentTest = extent.startTest(method.getName());
+		extentTest = extent.createTest(method.getName());
 		testUtil.switchToFrame("mainpanel");
 		dealsPage = homePage.clickOnDealsLink();
 		Log.info("Switched into Frame and Clicked on Deals Link");
