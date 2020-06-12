@@ -36,10 +36,3 @@ All Common Methods have been written in src/main/java/com/crm/qa/Utilities/TestU
 Failed Test Screenshot that gets added into Extent Report - Code is Written in TestBase.java Class.
 
 
-
-
-
-
-
-
-
